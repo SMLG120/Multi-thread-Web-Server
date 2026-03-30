@@ -1,4 +1,4 @@
-# Comp 2322 — Multi-Threaded HTTP Web Server
+# COMP2322 — Multi-Threaded HTTP Web Server
 
 > A lightweight HTTP/1.1 web server built from scratch using Python's `socket` module.  
 > No `http.server`, no `HTTPServer` — pure socket programming.
