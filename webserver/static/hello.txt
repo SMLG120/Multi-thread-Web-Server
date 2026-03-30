@@ -1,0 +1,12 @@
+Hello from the COMP2322 Multi-Threaded Web Server!
+
+This is a plain text file served by our custom Python socket server.
+The server correctly sets:
+
+  Content-Type:   text/plain; charset=utf-8
+  Content-Length: (auto-calculated)
+  Last-Modified:  (file modification time in RFC 2822 format)
+  Connection:     keep-alive   (or close if requested)
+
+Try requesting this file again quickly — if the server sends 304 Not Modified,
+the caching headers are working correctly!
