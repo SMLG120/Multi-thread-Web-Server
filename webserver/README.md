@@ -115,7 +115,7 @@ curl -v http://127.0.0.1:8080/does-not-exist.html
 # First, get the Last-Modified date
 curl -I http://127.0.0.1:8080/index.html
 
-# Then send If-Modified-Since with that date
+# Then send If-Modified-Since with the "specific" date
 curl -v -H "If-Modified-Since: Wed, 01 Jan 2026 00:00:00 GMT" \
         http://127.0.0.1:8080/index.html
 ```
