@@ -1,6 +1,8 @@
 #!/bin/bash
 # run_tests.sh — automated test suite for COMP2322 Web Server
-# Usage: bash run_tests.sh
+# Student Name: Samuel Ha
+# Student ID: 251442447X
+# Usage: Run "bash run_tests.sh" in terminal
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"   # absolute path of test/
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"        # one level up → project root

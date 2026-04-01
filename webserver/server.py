@@ -3,7 +3,7 @@ server.py — Multi-Threaded HTTP Web Server
 COMP2322 Computer Networking Project
 
 Author: Samuel Ha
-Student#: 25142247X
+Student ID: 25142247X
 
 This module is the entry point. It:
   1. Creates a TCP server socket and binds it to HOST:PORT
